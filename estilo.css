@@ -1,0 +1,158 @@
+/*Estrutura site*/
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background: rgb(218, 212, 139);
+
+}
+
+#topo {
+    background: rgb(0, 0, 0);
+    padding: 30px;
+    text-align: center;
+}
+
+#cabecalho {
+    height: 200px;
+    background: url(imagens/logohotel.jpg) no-repeat left;
+    padding: 30px;
+}
+
+.logo {
+    color: rgb(194, 162, 18);
+}
+
+p {
+    color: rgb(0, 0, 0);
+}
+
+/* Links */
+
+a:link, a:visited {
+    color: #9c8a21;
+    padding: 2px;
+}
+
+a:hover {
+    color: #e5b000;
+}
+
+nav ul li a:link {
+    display: block;
+    margin-right: 40px;
+    padding-bottom: 3px;
+    text-decoration: uppercase;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#cabecalho ul {
+    margin-top: 30px;
+    background: #b6a71e;
+    text-align: center;
+    float: right;
+   
+}
+   
+#cabecalho ul li {
+    
+    float: left;
+}
+
+
+#cabecalho ul a {
+    font-size: 0.9em;
+    display: block;
+    padding: 0.9em 1.5em;
+    line-height: 2.1em;
+    text-decoration: none;
+    color: rgb(204, 174, 42);
+}
+
+#cabecalho ul {
+    background: none;
+}
+
+#cabecalho ul a:hover {
+    color: rgb(122, 120, 90);
+}
+
+/* Gerais */
+
+#principal {
+    width: 930px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#area-postagens {
+    padding: 22px;
+    margin-bottom: 22px;
+    background: rgb(161, 153, 102);
+}
+
+#postagens {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/*Formatações */
+
+h1 {
+    color: burlywood;
+    font-size: 2.5em;
+}
+
+h2 {
+    color: rgb(66, 50, 24);
+    font-family: sans-serif;
+}
+
+/* Formulário */
+
+label {
+    display: block;
+    cursor: pointer;
+
+}
+
+input {
+    padding: 5px;
+    width: 125px;
+    font-size: 0.9em;
+    background: white;
+}
+
+input.submit {
+    width: 80px;
+    color: white;
+    background-color: rgb(44, 41, 34);
+    border: 3px solid rgb(59, 59, 48);
+}
+
+
+
+
+/* footer */
+#rodape {
+    background: black;
+    text-align: center;
+    padding: 20px;
+    color: rgb(185, 183, 27);
+}
+
+
+#p1 {
+    color: white;
+}
